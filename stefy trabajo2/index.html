@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actividad Evaluativa</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Actividad Evaluativa</h1>
+
+  <!-- Función 2: Mensaje mediante un recuadro de alerta -->
+  <h2>Formulario</h2>
+  <h3>¿Cómo te llamas?</h3>
+  <input id="nombre" type="text" />
+  <button onclick="enviar()">Enviar</button>
+
+  <!-- Función 3: Modificar el texto de una etiqueta -->
+  <h4 id="miBoton">Producto</h4>
+  <button onclick="cambiarContenido()">Agregar al carrito</button>
+
+  <!-- Función 4: Modificar el estilo de una etiqueta -->
+  <p id="mi-elemento">Este es un párrafo.</p>
+  <button onclick="cambiarEstilo()">Cambiar Estilo</button>
+
+  <!-- Función 5: Caja de comentarios -->
+  <h2>Caja de Comentarios</h2>
+  <textarea id="comentario" placeholder="Escribe tu comentario"></textarea>
+  <br>
+  <button onclick="agregarComentario()">Agregar Comentario</button>
+  <div id="contenedor-comentarios"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
